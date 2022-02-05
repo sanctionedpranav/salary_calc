@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salary Calculator</title>
+    <!-- <script src="/Salary Calc/scripts/model.js"></script> -->
+    <script type="module" src="./scripts/controller.js"></script>
+    <style>
+      .red {  
+        color: red;
+        font-weight: 1px;
+        font-size: smaller;
+        vertical-align: bottom;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Salary Calculator</h1>
+    <lable>Enter Basic Salary :-</lable>
+    <input
+      class="border"
+      id="basicSalary"
+      type="text"
+      placeholder="Enter Salary..."
+    />
+    <span id="error" class="red"></span>
+    <br />
+    <button id="compute">Compute</button>
+    <hr />
+    <fieldset>
+      <legend>Allowances</legend>
+      <!-- <p>HRA is :- <span id="hra"></span></p>
+        <p>DA is :- <span id="da"></span></p>
+        <p>TA is :- <span id="ta"></span></p>
+        <p>MA is :- <span id="ma"></span></p>
+        <p>PF is :- <span id="pf"></span></p>
+        <p>GS is :- <span id="gs"></span></p>
+        <p>NS is :- <span id="ns"></span></p> -->
+    </fieldset>
+  </body>
+</html>
